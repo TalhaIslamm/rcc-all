@@ -1,0 +1,21 @@
+#include "rcc_stdlib.h"
+using namespace std;
+
+void findGrade(int grade){
+
+    if (grade >=90){
+        cout <<"Student got an A\n" <<
+    } else if ((grade <=89) && (grade >=80)) {
+        cout <<"Student got a B\n"
+    } else if ((grade <=79) && (grade >=70)) {
+        cout <<"Student got a C\n"
+    } else if ((grade <=69) && (grade >=65)) {
+        cout <<"Student got a D\n"
+    } else {
+        cout <<"Student got an F\n"
+
+    }
+    
+    
+
+
